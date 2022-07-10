@@ -1,10 +1,13 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
   font-size: 16px;
   line-height: 1;
+  background-color: #FFF7F0;
+  
 }
 
 textarea{
+  font-family: 'Edu QLD Beginner';
   background: transparent;
   border: none;
   resize: none;
@@ -37,23 +40,23 @@ textarea{
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #FFE8E1;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #F4C2C2;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #FFD7D7;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:#FFE7E7;
   color: white;
 }
 
@@ -61,7 +64,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #FFE8E1;
   color: white;
 }
 
@@ -72,7 +75,7 @@ textarea{
 .clearBtn {
   font-size: 25px;
   border: 4px solid black;
-  background-color: white;
+  background-color: #FFE7F1;
 }
 
 .fa-regular {

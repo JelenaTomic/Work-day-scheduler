@@ -33,7 +33,7 @@ $(".clearBtn").on("click", function(event) {
     document.location.reload();
 });
 
-// Function to populate calendar items, if they are in local storage, on document load using 'ready' method
+// Function to populate calendar items if they are in local storage
 $(document).ready(function () {
     if (localStorage["saveEight"] !== null && localStorage["saveEight"] !== undefined) {
     var calItemEight = $("<p>" + localStorage["saveEight"] + "</p>");
