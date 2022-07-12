@@ -15,7 +15,6 @@ When the app is open the users will be presented with current date and time alon
 
 https://user-images.githubusercontent.com/106287916/178610905-1a954a8d-25d4-49b3-b476-988735569649.mov
 
-Recording%202022-07-11%20at%205.48.43%20PM.mov)
 
 
 
