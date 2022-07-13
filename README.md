@@ -2,6 +2,9 @@
 
  ## Project Name
  Work-day-scheduler
+ 
+ ## Deployed application
+ https://jelenatomic.github.io/Work-day-scheduler/
 
 ## Description 
 Making work day schedulers complement usage of Jquery along with Moment.js and bootstrap. Users will be presented with an hour by hour schedule which is color coordinated depending on the time. All inputs will be stored in local storage.
