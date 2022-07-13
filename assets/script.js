@@ -1,7 +1,7 @@
-
 // Current day at top of planner using Moment.js
 var currentDate = moment().format("MMMM Do YYYY, h:mm a");
 $("#currentDay").text(currentDate);
+
 
 /// Set variables for time block section, use Moment.js for current time
 var timeBlock = $(".hour");
@@ -35,13 +35,7 @@ $(".clearBtn").on("click", function(event) {
 
 // Function to populate calendar items if they are in local storage
 $(document).ready(function () {
-    if (localStorage["saveEight"] !== null && localStorage["saveEight"] !== undefined) {
-    var calItemEight = $("<p>" + localStorage["saveEight"] + "</p>");
-     $("#eight").append(calItemEight[0].innerText);
-    } 
-    else {
-    ("");
-     }
+   
     if (localStorage["saveNine"] !== null && localStorage["saveNine"] !== undefined) {
       var calItemNine = $("<p>" + localStorage["saveNine"] + "</p>");
       $("#nine").append(calItemNine[0].innerText);
@@ -101,27 +95,6 @@ $(document).ready(function () {
       if (localStorage["saveFive"] !== null && localStorage["saveFive"] !== undefined) {
         var calItemFive = $("<p>" + localStorage["saveFive"] + "</p>");
         $("#five").append(calItemFive[0].innerText);
-      } 
-      else {
-        ("");
-      }
-      if (localStorage["saveSix"] !== null && localStorage["saveSix"] !== undefined) {
-        var calItemSix = $("<p>" + localStorage["saveSix"] + "</p>");
-        $("#six").append(calItemSix[0].innerText);
-      } 
-      else {
-        ("");
-      }
-      if (localStorage["saveSeven"] !== null && localStorage["saveSeven"] !== undefined) {
-        var calItemSeven = $("<p>" + localStorage["saveSeven"] + "</p>");
-        $("#seven").append(calItemSeven[0].innerText);
-      } 
-      else {
-        ("");
-      }
-      if (localStorage["saveEightPm"] !== null && localStorage["saveEightPm"] !== undefined) {
-        var calItemEightPm = $(`<p>${localStorage["saveEightPm"]}</p>`);
-        $("#eightPm").append(calItemEightPm[0].innerText);
       } 
       else {
         ("");
